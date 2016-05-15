@@ -1,0 +1,69 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+	<title>Fire Stations</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- build:css styles/vendor.css -->
+	<link rel="stylesheet" href="lib/styles/leaflet.css">
+	<link rel="stylesheet" href="lib/styles/leaflet.awesome-markers.css">
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/FormButtons/css/form_buttons.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:css styles/main.css -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- endbuild -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+
+<body>
+
+	<header class="group">
+		<div class="appName">
+			Fire Stations
+		</div>
+		<div class="getBuffer">
+			<div class="form-button auto-close red">
+				<label for="name" class="cta">
+					<i class="icon fa fa-file-text-o"></i>
+					<span class="text">Load Buffers</span>
+				</label>
+				<input class="input" type="text" placeholder="Meters" id="name" name="name">
+				<button class="submit" type="submit">
+					<i class="ion ion-ionic"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<div class="map-application">
+		<div id="map" class="map"></div>
+	</div>
+
+	<!-- build:js scripts/vendor.js -->
+	<script src="lib/scripts/leaflet.js"></script>
+	<script src="lib/scripts/leaflet.awesome-markers.js"></script>
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/FormButtons/js/form_buttons.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:js scripts/main.js -->
+	<script src="scripts/main.js"></script>
+	<!-- endbuild -->
+</body>
+
+</html>
